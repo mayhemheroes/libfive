@@ -1,0 +1,5 @@
+project: libfive
+target: libfive-opcode-enum
+cmds:
+  - cmd: /fuzz_libfive_opcode_enum
+    libfuzzer: true
